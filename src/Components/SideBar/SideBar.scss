@@ -1,0 +1,35 @@
+.side-bar {
+  position: fixed;
+  z-index: 500;
+  width: 70%;
+  // padding: 16px;
+  left: 15%;
+  top: 30%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+
+  .menu-items {
+    z-index: 600;
+
+    .menu-item {
+      // display: inline;
+      transition: all 0.3s ease;
+
+      .link {
+        z-index: 700;
+        background-color: #3da5eb;
+        padding: 20px;
+        font-size: 40px;
+        list-style: none;
+        font-weight: 600;
+        background: -webkit-linear-gradient(#065b94, #3da5eb);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        @media only screen and (max-width: 540px) {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

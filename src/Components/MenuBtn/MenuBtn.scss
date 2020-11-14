@@ -1,0 +1,42 @@
+.menu-btn {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1 {
+  width: 30px;
+  height: 4px;
+  background-color: #566597;
+  margin: 6px 0;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.bar2 {
+  width: 30px;
+  height: 4px;
+  background-color: #566597;
+  margin: 6px 0;
+  transition: 0.2s;
+  border-radius: 20px;
+}
+.bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: #566597;
+  margin: 6px 0;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.change {
+  .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  .bar2 {
+    opacity: 0;
+  }
+  .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+}
